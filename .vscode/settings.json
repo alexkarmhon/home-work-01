@@ -1,0 +1,5 @@
+{
+  "editor.tabSize": 2,
+  "terminal.integrated.tabStopWidth": 8,
+  "editor.detectIndentation": false
+}
