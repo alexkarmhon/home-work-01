@@ -1,1 +1,106 @@
+:root {
+  --main-white-color: #ffffff;
+  --sec-white-color: #F5F4FA;
+  --hero-footer-color: #2F303A;
+  --p-text-color: #757575;
+  --link-title-black: #212121;
+  --logo-black-color: #000000;
+  --accent-color: #2196F3;
+  --host-white: #ffffff99;
+}
 
+
+/* Загальні стилі */
+body {
+  background-color: var(--main-white-color);
+  color: var(--p-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  color: var(--link-title-black);
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.link:hover, .link:focus {
+  color: var(--accent-color)
+}
+
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.title {
+  color: var(--link-title-black);
+}
+
+
+/* Стилі шапки HEADER*/
+.header {
+  background-color: var(--main-white-color);
+}
+
+.header .logo {
+  color: var(--logo-black-color);
+}
+
+/* Стилі HERO */
+.hero {
+  background-color: var(--hero-footer-color);
+}
+
+.hero .title {
+  color: var(--main-white-color);
+}
+
+.hero .btn {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+}
+
+
+/* Стилі FEATURES */
+
+
+/* Стилі  WORKS */
+
+
+/* Стилі OUR TEAM */
+.team {
+  background-color: var(--sec-white-color);
+}
+.team-card {
+  background-color: var(--main-white-color);
+}
+
+
+/* Стилі FOOTER */
+.footer {
+  background-color: var(--hero-footer-color);
+}
+
+.footer .logo {
+  color: var(--main-white-color);
+}
+
+.map-link {
+  color: var(--main-white-color)
+}
+
+.mail-link, .tel-link {
+  color: var(--host-white);
+}
+
+/* Стилі PORTFOLIO */
+.filter-btn:hover, .filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+}
