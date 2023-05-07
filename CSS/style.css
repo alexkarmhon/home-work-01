@@ -43,8 +43,11 @@ body {
 }
 
 
-.logo span {
+.logo-link span {
   color: var(--accent-color);
+}
+.logo-link {
+  text-decoration: none;
 }
 
 .title {
@@ -65,7 +68,7 @@ body {
   background-color: var(--main-white-color);
 }
 
-.logo {
+.logo-link {
   color: var(--logo-black-color);
   
   font-family: 'Raleway', sans-serif;
@@ -171,7 +174,7 @@ body {
   background-color: var(--hero-footer-color);
 }
 
-.footer .logo {
+.footer .logo-link {
   color: var(--main-white-color);
 }
 
@@ -191,8 +194,9 @@ body {
   color: var(--host-white);
 }
 
-/* Стилі PORTFOLIO */
+/* =====Стилі PORTFOLIO===== */
 .filter-btn {
+  background-color: var(--sec-white-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -204,4 +208,20 @@ body {
 .filter-btn:hover, .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--main-white-color);
+}
+
+.project-item .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--link-title-black);
+}
+
+.project-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--p-text-color);
 }
