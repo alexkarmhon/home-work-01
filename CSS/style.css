@@ -106,7 +106,6 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid teal;
 }
 
 .features .container,
@@ -122,6 +121,7 @@ img {
 /* =================HEADER===================*/
 .header {
   background-color: var(--main-white-color);
+  border-bottom: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -191,6 +191,10 @@ img {
 
 /* ==================HERO======================= */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
   text-align: center;
   background-color: var(--hero-footer-color);
 }
@@ -374,8 +378,10 @@ img {
 }
 
 .projects-list-item {
+  max-width: 370px;
   margin-left: 30px;
   margin-top: 30px;
+  border: 1px solid #EEEEEE;
 }
 
 .card-description {
