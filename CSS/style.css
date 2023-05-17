@@ -191,12 +191,19 @@ img {
 
 /* ==================HERO======================= */
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   padding-left: 452px;
   padding-right: 452px;
   text-align: center;
-  background-color: var(--hero-footer-color);
+  background-image: url(../images/backgrounds/new_foto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px 600px;
+  /* background-color: var(--hero-footer-color); */
 }
 
 .hero-content {
@@ -204,6 +211,7 @@ img {
 }
 
 .hero .title {
+  margin-bottom: 30px;
   color: var(--main-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -214,11 +222,19 @@ img {
 }
 
 .hero-btn {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 200px;
   margin: 0 auto;
   padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: .06em;
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  border: 1px solid transparent;
   border-style: none;
   border-radius: 4px;
   background-color: var(--accent-color);
